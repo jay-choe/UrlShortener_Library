@@ -7,31 +7,6 @@
   <groupId>io.github.jay-choe</groupId>
   <artifactId>UrlShortenerLibrary</artifactId>
   <version>1.0</version>
-
-  <name>UrlShortener</name>
-  <description>A library for helping anyone to create their own UrlShortener</description>
-  <url>https://github.com/jay-choe/UrlShortener_Library</url>
-
-  <scm>
-    <connection>scm:git:https://github.com/jay-choe/UrlShortener_Library.git</connection>
-    <url>https://github.com/jay-choe/UrlShortener_Library</url>
-    <developerConnection>scm:git:https://github.com/jay-choe/UrlShortener_Library.git</developerConnection>
-  </scm>
-
-  <licenses>
-    <license>
-      <name>GNU Lesser General Public License</name>
-      <url>http://www.gnu.org/licenses/lgpl.txt</url>
-    </license>
-  </licenses>
-  <developers>
-    <developer>
-      <id>jay-choe</id>
-      <name>Choi JaeHyeong</name>
-      <email>jaehchoi@student.42seoul.kr</email>
-      <organization>42Seoul</organization>
-    </developer>
-  </developers>
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>

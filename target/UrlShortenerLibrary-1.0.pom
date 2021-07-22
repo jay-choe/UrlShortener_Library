@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.jay-choe</groupId>
-  <artifactId>UrlShortener_Library</artifactId>
+  <artifactId>UrlShortenerLibrary</artifactId>
   <version>1.0</version>
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
@@ -19,7 +19,7 @@
     </snapshotRepository>
     <repository>
       <id>ossrh</id>
-      <url>hhttps://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
   </distributionManagement>
 
@@ -27,10 +27,7 @@
     <plugins>
       <plugin>
         <artifactId>maven-javadoc-plugin</artifactId>
-        <version>3.0.1</version>
-        <configuration>
-          <additionalJOption>-Xdoclint:none</additionalJOption>
-        </configuration>
+        <version>3.2.0</version>
         <executions>
           <execution>
             <id>attach-javadocs</id>
@@ -73,7 +70,7 @@
         <extensions>true</extensions>
         <configuration>
           <serverId>ossrh</serverId>
-          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+          <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
           <autoReleaseAfterClose>true</autoReleaseAfterClose>
         </configuration>
       </plugin>

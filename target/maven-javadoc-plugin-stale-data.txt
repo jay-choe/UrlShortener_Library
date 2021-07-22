@@ -1,0 +1,50 @@
+/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/javadoc
+@options
+@argfile
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/Users/jay/42Visitor/shrtener/shortener/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/jay/42Visitor/shrtener/shortener/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'UrlShortenerLibrary 1.0 API'
+-use
+-version
+-windowtitle
+'UrlShortenerLibrary 1.0 API'
+'/Users/jay/42Visitor/shrtener/shortener/src/main/java/UrlConverter.java'
+'/Users/jay/42Visitor/shrtener/shortener/src/main/java/UrlShortener.java'
+/Users/jay/42Visitor/shrtener/shortener/src/main/java/UrlConverter.java = 1626951351056
+/Users/jay/42Visitor/shrtener/shortener/src/main/java/UrlShortener.java = 1626951366109
+/Users/jay/42Visitor/shrtener/shortener/src/main/java = 1626951366110
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/constant-values.html = 1626975962486
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/tag-search-index.js = 1626975962499
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/overview-tree.html = 1626975962493
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/module-search-index.js = 1626975962498
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/index.html = 1626975962504
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/package-search-index.js = 1626975962499
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/jquery-ui.overrides.css = 1626975962513
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/package-use.html = 1626975962491
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/index-all.html = 1626975962503
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/allpackages-index.html = 1626975962498
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/UrlConverter.html = 1626975962470
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/member-search-index.js = 1626975962499
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/UrlShortener.html = 1626975962478
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/script.js = 1626975962508
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/stylesheet.css = 1626975962508
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/help-doc.html = 1626975962505
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/package-summary.html = 1626975962482
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/package-tree.html = 1626975962484
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/element-list = 1626975962479
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/allclasses-index.html = 1626975962497
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/type-search-index.js = 1626975962499
+/Users/jay/42Visitor/shrtener/shortener/target/apidocs/search.js = 1626975962509
