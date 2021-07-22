@@ -6,11 +6,11 @@ public class UrlShortener {
     public UrlShortener(){};
 
     public UrlShortener(String domain) {
-       this.domain = domain;
+        this.domain = domain;
     }
 
     public boolean validEncodedFormat(String encodedStr) {
-      return Pattern.matches("[0-9a-zA-Z]+", encodedStr);
+        return Pattern.matches("[0-9a-zA-Z]+", encodedStr);
     }
 
     public void setDomain(String domain) {

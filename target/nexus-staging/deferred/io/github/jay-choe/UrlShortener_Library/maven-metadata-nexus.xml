@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.github.jay-choe</groupId>
+  <artifactId>UrlShortener_Library</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210722150856</lastUpdated>
+  </versioning>
+</metadata>
