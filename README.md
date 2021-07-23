@@ -55,12 +55,13 @@ String shortUrl = shortener.getShortUrl("your unique key");
 
 ```
 
-unique key의 타입은 long이며, 해당 키를 Base62로 인코딩한 값을
-domain + /value 형식으로 리턴을 합니다.
+    unique key의 타입은 long이며 
+    해당 키를 Base62로 인코딩한 값을
+    domain + /value 형식으로 리턴을 합니다.
 
-어떤 값이던지, 해당 key가 유일하다면 동일한 값을 보장합니다.
+    어떤 값이던지, 해당 key가 유일하다면 동일한 값을 보장합니다.
 
-하지만 데이터베이스의 id값을 사용하는 것을 권장합니다.
+    하지만 데이터베이스의 id값을 사용하는 것을 권장합니다.
 
 #### Unique key 다시 얻기
 
@@ -69,10 +70,12 @@ domain + /value 형식으로 리턴을 합니다.
 long uniqueKey = shortener.getUniqueKey(shortUrl)
 
 ```
-shorturl 파라미터는 domain을 제외한 / + value 에 나오는 value 값 입니다.
+    shorturl 파라미터는 domain을 제외한 / + value 에 나오는 value 값 입니다.
 
-생성시 주었던 unique key를 리턴합니다.
+    생성시 주었던 unique key를 리턴합니다.
 
-내부에서 정규표현식으로 base62에 해당하는 문자가 아닐시 IllegalArgumentException을 띄웁니다.
+    내부에서 정규표현식으로 base62에 해당하는 문자가 아닐시 
+    
+    IllegalArgumentException을 띄웁니다.
 
 ### 
