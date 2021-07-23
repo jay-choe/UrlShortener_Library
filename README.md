@@ -77,7 +77,7 @@ long uniqueKey = shortener.getUniqueKey(shortUrl)
 
     생성시 주었던 unique key를 리턴합니다.
 
-    내부에서 정규표현식으로 base62 즉 단축된 Url의 값이
+    내부에서 정규표현식으로 단축된 Url의 값이
     
     Base62 값("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")에 해당하지 않을경우
     
