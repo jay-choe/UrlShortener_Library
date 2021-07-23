@@ -83,5 +83,3 @@ long uniqueKey = shortener.getUniqueKey(shortUrl)
     
     IllegalArgumentException을 쓰로우합니다.
 
-
-### Tutorial
