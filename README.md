@@ -57,7 +57,9 @@ String shortUrl = shortener.getShortUrl("your unique key");
 ```
 
     unique key의 타입은 long이며 
+    
     해당 키를 Base62로 인코딩한 값을
+    
     domain + /value 형식으로 리턴을 합니다.
 
     어떤 값이던지, 해당 key가 유일하다면 동일한 값을 보장합니다.
