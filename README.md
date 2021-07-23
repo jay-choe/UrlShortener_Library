@@ -78,9 +78,10 @@ long uniqueKey = shortener.getUniqueKey(shortUrl)
     생성시 주었던 unique key를 리턴합니다.
 
     내부에서 정규표현식으로 base62 즉 단축된 Url의 값이
-    에 해당하는 문자("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")가 아닐시 
     
-    IllegalArgumentException을 띄웁니다.
+    Base62 값("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")에 해당하지 않을경우
+    
+    IllegalArgumentException을 쓰로우합니다.
 
 
 ### Tutorial
